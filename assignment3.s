@@ -14,7 +14,7 @@ greater:
     BAL end
     
 lesser:
-    LSR R5, Rt,#1 //perform 1 logical right shifts
+    LSR R5, R5,#1 //perform 1 logical right shifts
     BAL end
 
 equal:
